@@ -8,6 +8,8 @@ Put the script in the folder where you want to download the builds to and run th
 
 #### Be careful not to run the script in a directory that already contains a folder named 'blender' where you store your blend files (or any other important files). The script will simply remove that folder without any warning.
 
+#### It is best to keep and run the script in a folder solely for the blender build (to avoid accidental deletions) and pin blender to the taskbar or the dock and simply run the script daily to fetch the latest build. The same shortcuts will continue to work as long as you keep downloading to the same folder.
+
 ## Dependencies
  - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/) -- used to parse html and get the download link
 
